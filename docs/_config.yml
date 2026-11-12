@@ -25,8 +25,8 @@ author: phlow
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
-baseurl: '/feeling-responsive'
+url: 'https://git.weslab.nl'
+baseurl: '/'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -38,11 +38,11 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'https://git.weslab.nl/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+# logo: "logo.png"
 
 # Plugins
 plugins:
@@ -143,8 +143,8 @@ defaults:
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_site_verification        : 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
-bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
+# google_site_verification        : 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
+# bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
 # yandex_site_verification      : ''
 # alexa_verify_id               : ''
 
@@ -177,9 +177,9 @@ msapplication_tilecolor              : '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image                             : 'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_locale                            : 'en_EN'
-og_type                              : 'website'
+# og_image                             : 'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+# og_locale                            : 'en_EN'
+# og_type                              : 'website'
 
 
 #      _____            _       __   __  ___         ___
@@ -191,9 +191,9 @@ og_type                              : 'website'
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
-socialmedia:
-    twitter   : phlow
-    facebook  : phlow.media
+# socialmedia:
+#     twitter   : phlow
+#     facebook  : phlow.media
 
 
 #        ____  _
@@ -205,7 +205,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+# disqus_shortname:
 
 
 #      _____
@@ -265,7 +265,7 @@ sass:
 
 asciidoctor-enabled: false
 asciidoctor:
-  description: 
+  description:
   attributes:
     source-highlighter: coderay
     coderay-css: style
