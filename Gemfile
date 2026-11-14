@@ -8,12 +8,12 @@ source "http://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-#gem "jekyll"
+gem "jekyll"
 gem "rack"
 gem "webrick"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+#gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -30,3 +30,9 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", :install_if => Gem.win_platform?
 gem "ostruct", "~> 0.6.3"
+
+gem "csv", "~> 3.3"
+
+gem "bigdecimal", "~> 4.1"
+
+gem "base64", "~> 0.3.0"
