@@ -10,25 +10,39 @@ tags:
 - test
 ---
 
+<link rel="stylesheet" href="/assets/css/mycss.css">
+
 This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
 For more information about writing markdown you can checkout the following markdown cheatsheets:
+
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 ---
-
 # This is the h1 text
+
+[x]
+* [ ]
+* [ ]
+
+
 ## This is the h2 text
+
 ### This is the h3 text
+
 #### This is the h4 text
+
 ##### This is the h5 text
+
 ###### This is the h6 text
 
-**Bold Text in the post will look like:**<br>
-**This text is Bold**
+**Bold Text in the post will look like:**
 
-**Italic Text in the post will look like:**<br>
+**This text is Bold KDFJSDLFJSKLDFJLKSDJFKLSDJ** — example of bold text.
+
+**Italic Text in the post will look like:**
+
 *This text is Italic*
 
 > Quotes on your post will look like this
